@@ -11,23 +11,7 @@ void main()
 {
 	int choice,arr[5]={0};
 	clrscr();
-	printf("\n1Enter 1 for Bubble Sort");
-	printf("\n2Enter 2 for Insertion sort");
-	printf("\n3Enter 3 for quick sort");
-	printf("\n4Enter 4 for Merge sort");
-	printf("\n5Enter 5 for Exit");
-	printf("\nEnter the option");
-	scanf("%d",&choice);
-	switch(choice)
-	{
-
-		case 1:
-		       bubble(arr);
-		       break;
-
-
-	}
-
+	bubble(arr);
 }
 void inputb(int arrt[5])
 {
